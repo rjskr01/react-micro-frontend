@@ -1,18 +1,5 @@
-import {
-  Center,
-  Box,
-  Flex,
-  Heading,
-  Spinner,
-  Button,
-  Text,
-  Image,
-  Link,
-} from "@chakra-ui/react";
-import React from "react";
-import { Link as RouterLink } from "react-router-dom";
 
-var version = process.env.BUILD_DATE;
+import React from "react";
 
 type ContainerAppProps = {
   CounterAppOne: React.LazyExoticComponent<React.ComponentType<{}>>;

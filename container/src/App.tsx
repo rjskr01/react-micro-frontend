@@ -1,5 +1,4 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
 import { ContainerApp } from "./components/ContainerApp";
 
 const CounterAppOne = React.lazy(() => import("app1/CounterAppOne"));
@@ -8,23 +7,13 @@ const CounterAppThree = React.lazy(() => import("app3/CounterAppThree"));
 const CounterAppFour = React.lazy(() => import("app3/CounterAppFour"));
 
 const App = () => (
-  <>
-    <Routes>
-      <Route
-        path="/"
-        element={
+  
           <ContainerApp
             CounterAppOne={CounterAppOne}
             CounterAppTwo={CounterAppTwo}
             CounterAppThree={CounterAppThree}
             CounterAppFour={CounterAppFour}
           />
-        }
-      />
-      <Route path="app1/*" element={<CounterAppOne />} />
-      <Route path="app2/*" element={<CounterAppTwo />} />
-    </Routes>
-  </>
 );
 
 export default App;
