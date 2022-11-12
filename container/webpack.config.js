@@ -63,6 +63,7 @@ module.exports = (env, argv) => {
         remotes: {
           app1: isProduction ? process.env.PROD_APP1 : process.env.DEV_APP1,
           app2: isProduction ? process.env.PROD_APP2 : process.env.DEV_APP2,
+          app3: isProduction ? process.env.PROD_APP3 : process.env.DEV_APP3,
         },
         shared: {
           ...deps,

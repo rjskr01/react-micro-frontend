@@ -11,3 +11,15 @@ declare module "app2/CounterAppTwo" {
 
 	export default CounterAppTwo;
 }
+declare module "app3/CounterAppThree" {
+	const CounterAppThree: React.ComponentType;
+
+	export default CounterAppThree;
+}
+
+declare module "app3/CounterAppFour" {
+	const CounterAppFour: React.ComponentType;
+
+	export default CounterAppFour;
+}
+
