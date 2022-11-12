@@ -1,8 +1,8 @@
 import React from "react";
-import CounterAppOne from "./components/CounterAppOne";
+import PageOne from "./components/PageOne";
 
 const App = () => (
-	<CounterAppOne />
+	<PageOne />
 );
 
 export default App;

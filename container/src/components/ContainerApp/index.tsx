@@ -2,21 +2,21 @@
 import React from "react";
 
 type ContainerAppProps = {
-  CounterAppOne: React.LazyExoticComponent<React.ComponentType<{}>>;
+  PageOne: React.LazyExoticComponent<React.ComponentType<{}>>;
   CounterAppTwo: React.LazyExoticComponent<React.ComponentType<{}>>;
   CounterAppThree: React.LazyExoticComponent<React.ComponentType<{}>>;
   CounterAppFour: React.LazyExoticComponent<React.ComponentType<{}>>;
 };
 
 export const ContainerApp = ({
-  CounterAppOne,
+  PageOne,
   CounterAppTwo,
   CounterAppThree,
   CounterAppFour
 }: ContainerAppProps) => {
   return (
     <>
-    <CounterAppOne/>
+    <PageOne/>
     <CounterAppTwo/>
     <CounterAppThree/>
     <CounterAppFour/>

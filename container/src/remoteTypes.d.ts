@@ -1,9 +1,9 @@
 ///<reference types="react" />
 
-declare module "app1/CounterAppOne" {
-	const CounterAppOne: React.ComponentType;
+declare module "app1/PageOne" {
+	const PageOne: React.ComponentType;
 
-	export default CounterAppOne;
+	export default PageOne;
 }
 
 declare module "app2/CounterAppTwo" {
